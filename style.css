@@ -1,0 +1,85 @@
+#title{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: green;
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+#pic{
+  width: 100%;
+}
+
+h4{
+  color: rgb(52, 103, 235);
+  font-family: 'Rubik', sans-serif;
+  font-style: italic; 
+}
+
+p{
+  color: green; 
+  font-style: italic; 
+  font-family: 'Rubik', sans-serif;
+}
+
+h1{
+  color: green;
+  font-family: 'Rubik', sans-serif;
+}
+
+#back{
+  color: green;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  background: rgb(168, 235, 52);
+}
+
+#next{
+  color: green;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  background: rgb(168, 235, 52);
+}
+
+#name{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+#quote{
+ font-size: 25px; 
+ font-family: 'Abril Fatface', cursive;
+ text-align: center;
+}
+
+#superlative{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
+  text-align: center;
+}
+
+#random{
+  color: green;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  background: rgb(168, 235, 52);
+}
+
+#footer{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: left;
+  color: green;
+}
+
